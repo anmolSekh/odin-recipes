@@ -1,8 +1,8 @@
 # odin-recipes
 ## What is this?
-This is a web page linking to various recipes
+This is an html page that links to various recipes. The various recipes each have an image, ingredient list, and steps on how to cook the recipe.
 
-This project will demonostrate the html lessons I have learned from the odin project thus far.
+This project demonostrates the following:
 - Basic html boilerplate
 - Lists
 - Links
