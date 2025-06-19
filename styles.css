@@ -1,10 +1,11 @@
 h1 {
-    font-family: Verdana, Georgia, sans-serif;
+    
     font-size: 40px;
     background-color: chocolate;
     color: aliceblue;
     padding: 20px 20px;
     text-align: center;
+    border: rgb(228, 194, 169) dotted;
 }
 .txtbox {
     /* background-color: chocolate; */
@@ -19,6 +20,7 @@ a {
 }
 body {
     background-color: rgb(228, 194, 169);
+    font-family: Verdana, Georgia, sans-serif;
 }
 img {
     display: block;
