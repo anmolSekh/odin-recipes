@@ -1,15 +1,23 @@
 h1 {
     
     font-size: 40px;
-    background-color: chocolate;
+    background-color: rgb(255, 169, 107);
     color: aliceblue;
     padding: 20px 20px;
     text-align: center;
-    border: rgb(228, 194, 169) dotted;
+    border: rgb(255, 160, 93) dotted;
 }
-.txtbox {
+.food,
+.drinks {
     /* background-color: chocolate; */
-    padding-left: 60px;
+    padding-bottom: 10px;
+    /* display: block */
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(255, 169, 107);
+    border: rgb(255, 160, 93) dotted;
 }
 li {
     font-size: 25px;
