@@ -1,39 +1,79 @@
+body {
+    background-color: rgb(228, 194, 169);
+    font-family: Verdana, Georgia, sans-serif;
+}
 h1 {
-    
-    font-size: 40px;
-    background-color: rgb(255, 169, 107);
-    color: aliceblue;
-    padding: 20px 20px;
     text-align: center;
+}
+.odin {
+    display: inline-block;
+    font-size: 40px;
+    /* color: aliceblue; */
+    padding: 20px 40px;
+    margin: 8px;
+}
+.bckground {
+    background-color: rgb(255, 169, 107);
     border: rgb(255, 160, 93) dotted;
 }
 .food,
 .drinks {
     /* background-color: chocolate; */
-    padding-bottom: 10px;
-    /* display: block */
+    padding: 10px;
+    /* text-align: center;
+    display: block; */
 }
-ul {
-    list-style-type: none;
+.txtbox {
     text-align: center;
-    background-color: rgb(255, 169, 107);
-    border: rgb(255, 160, 93) dotted;
+    /* background-color: rgb(255, 169, 107); */
+    /* border: rgb(255, 160, 93) dotted; */
+    
 }
-li {
+.recipes {
+    display: inline-block;
+    list-style-type: none;
+    /* text-align: center; */
+    /* padding: ; */
+    margin: 0 auto;
+    
+}
+.rec-list {
     font-size: 25px;
     margin-bottom: 8px;
+    
 }
 a {
     color: black;
 }
-body {
-    background-color: rgb(228, 194, 169);
-    font-family: Verdana, Georgia, sans-serif;
-}
-img {
+
+#food,#drink {
     display: block;
     height: 120px;
     padding-top: 20px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+.food-item {
+    /* box-sizing: content-box; */
+    display: inline-block;
+    height:550px; 
+    width :600px;
+    float: left;
+}
+
+.describe {
+    /* display: inline; */
+    /* margin-left: 10px; */
+}
+
+.ingredients {
+    /* display: block; */
+    overflow: hidden;
+    /* text-align: left; */
+    /* margin: 100px */
+}
+
+.steps {
+    overflow: hidden;
 }
