@@ -14,7 +14,7 @@ h1 {
 }
 .bckground {
     background-color: rgb(255, 169, 107);
-    border: rgb(255, 160, 93) dotted;
+    border: 4px rgb(255, 160, 93) dotted;
 }
 .food,
 .drinks {
